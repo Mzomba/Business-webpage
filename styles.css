@@ -1,0 +1,77 @@
+
+/* Custom styles for Web Dev Meister portfolio */
+body { font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; }
+.hero-section {
+           background: linear-gradient(180deg, #f8fafc, #ffffff); }
+.device-mockup {
+           max-width: 520px;
+            margin: 0 auto; 
+          }
+.card img {
+           object-fit: cover; 
+           height: 200px; 
+          }
+footer { 
+          font-size: 0.9rem;
+          }
+          body {
+  background-color: #121212;
+  color: #eaeaea;
+  font-family: 'Inter', sans-serif;
+}
+
+.navbar, footer {
+  background-color: #1f1f1f !important;
+}
+
+.navbar a.nav-link {
+  color: #eaeaea !important;
+}
+
+.navbar a.nav-link:hover {
+  color: #0d6efd !important;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #1e1e1e, #252525);
+  color: white;
+}
+
+.card {
+  background-color: #1f1f1f;
+  border: none;
+  color: #eaeaea;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0b5ed7;
+}
+
+.btn-outline-secondary {
+  border-color: #eaeaea;
+  color: #eaeaea;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #eaeaea;
+  color: #121212;
+}
+
+footer {
+  color: #bbb;
+  border-top: 1px solid #333;
+}
+footer a {
+  color: #0d6efd;
+}
